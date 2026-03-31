@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title }}</title>
+  <meta name="description" content="TestPilot automatically crawls your website and runs AI-powered UI tests so regressions never reach production." />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="Automated UI & UAT testing that discovers your pages, suggests test flows, and catches regressions before your users do." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href__="https://fonts.googleapis.com" />
+  <link href__="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href__="{{ '/assets/style.css' | relative_url }}" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href__="/" class="nav-logo">🚀 TestPilot</a>
+      <div class="nav-links">
+        <a href__="#features">Features</a>
+        <a href__="#how-it-works">How It Works</a>
+        <a href__="#get-started" class="btn btn-primary btn-sm">Get Early Access</a>
+      </div>
+    </div>
+  </nav>
+  {{ content }}
+</body>
+</html>
